@@ -11,7 +11,6 @@ function NavLink() {
             <Link to='/fresh'><li className='hover:text-white '>Fresh</li></Link>
             <Link to='/sell'><li className='hover:text-white'>Sell</li></Link>
             <Link to="/todays-deals">Today's Deals</Link>
-            <Link to='/product-Detail'>show more</Link>
             <Link to="/new-releases">New Releases</Link>
             <Link to='/BestSellers'><li className='hover:text-white'>BestSellers</li></Link>
             <Link to='/mobile'><li className='hover:text-white'>Mobiles</li></Link>
