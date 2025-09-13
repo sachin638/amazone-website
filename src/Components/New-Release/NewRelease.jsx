@@ -1,4 +1,5 @@
 import React from 'react'
+// import NewData from './NewData'
 
 function NewRelease() {
   return (
@@ -14,6 +15,7 @@ function NewRelease() {
           </ul>
           <hr /><br />
         </span>
+        {/* <span >< NewData/></span> */}
     </div>  
     </>
   )

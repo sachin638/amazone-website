@@ -13,8 +13,9 @@ import Fashion from './Components/Fashion/Fashion';
 import Fresh from './Components/Fresh/Fresh';
 import FreshRecipeDetails from './Components/Fresh/FreshRecipeDetails';
 import Footer from './Components/Footer/Footer';
-import ProductDetail from './Components/Todays/ProductDetails';
 import Navbar from './Components/Navbar/Navbar';
+import ProductList from './Components/New-Release/NewData';
+import ProductDetail from './Components/New-Release/ProductDetail';
 
 function App() {
   return (
@@ -26,12 +27,12 @@ function App() {
         <Route path="/fresh/:id" element={<FreshRecipeDetails />} />
         <Route path="/sell" element={<Sell />} />
         <Route path="/todays-deals" element={<TodaysDeals />} />
-        <Route path="/product-detail/:id" element={<ProductDetail />} />
         <Route path="/bestsellers" element={<BestSellers />} />
         <Route path="/mobiles" element={<Mobiles />} />
         <Route path="/primes" element={<Primes />} />
         <Route path="/customer-services" element={<CustomerServices />} />
-        <Route path="/new-releases" element={<NewRelease />} />
+        <Route path="/new-releases" element={<ProductList />} />
+        <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/electronics" element={<Electronics />} />
         <Route path="/fashion" element={<Fashion />} />
       </Routes>
